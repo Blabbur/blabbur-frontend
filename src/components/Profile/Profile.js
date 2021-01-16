@@ -47,7 +47,7 @@ const Profile = () => {
       </Header>
       <ProfileInfo profile={data && data.profile} />
       {data && data.profile && data.profile.tweets && data.profile.tweets.length
-        ? data.profile.tweets.map((tweet) => (
+        ? data.profile.tweets.reverse().map((tweet) => (
             <Tweet key={tweet.id} tweet={tweet} />
           ))
         : null}
