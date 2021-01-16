@@ -40,12 +40,12 @@ const MasterTweet = () => {
           ) : (
             <CustomResponse text="Oops, the tweet you are looking for doesn't seem to be exist." />
           )}
-          {data && data.tweet && data.tweet.id ? (
-            <AddComment id={data.tweet.id} />
-          ) : null}
           {comments.map((comment) => (
             <Comment key={comment.id} comment={comment} />
           ))}
+          {data && data.tweet && data.tweet.id ? (
+                <AddComment id={data.tweet.id} />
+                ) : null}
         </>
       )}
     </Wrapper>

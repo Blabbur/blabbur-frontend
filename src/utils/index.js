@@ -7,7 +7,7 @@ export const displayError = (err) =>
 export const sortFn = (a, b) => {
   var dateA = new Date(a.createdAt).getTime();
   var dateB = new Date(b.createdAt).getTime();
-  return dateA < dateB ? 1 : -1;
+  return dateA > dateB ? 1 : -1;
 };
 
 export const uploadImage = async (file) => {
