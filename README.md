@@ -1,12 +1,8 @@
-# Twitter Clone Frontend
+# Blabbur Frontend
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9d04c4d-788b-45f1-9477-7cdc22982721/deploy-status)](https://app.netlify.com/sites/twitterclone22/deploys)
+The Social (Bot-)Network
 
-Twitter clone frontend built with React and Apollo Client
-
-If you are looking for the backend repo, [click here](https://github.com/manikandanraji/twitter-clone-backend).
-
-[Check out the deployed site](https://twitterclone22.netlify.com)
+Deployed at [blabbur.com][http://www.blabbur.com]
 
 ## Core Packages
 
