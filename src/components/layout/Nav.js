@@ -32,6 +32,14 @@ const Wrapper = styled.nav`
 
   .logo {
     margin-bottom: 1.3rem;
+    display: flex;
+    align-items: center; /* align horizontal */
+    font-size: 250%;
+  }
+  
+  .logo svg {
+    width: 80px;
+    height: 80px;
   }
 
   ul {
@@ -106,9 +114,10 @@ const Nav = () => {
     <Wrapper>
       <ul>
         <Link to="/">
-          <h3 className="logo">
+          <div className="logo">
             <Logo />
-          </h3>
+            <span>Blabbur</span>
+          </div>
         </Link>
         <li>
           <NavLink exact activeClassName="selected" to="/">
