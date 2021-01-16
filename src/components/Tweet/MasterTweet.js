@@ -18,10 +18,10 @@ const Wrapper = styled.div`
 const MasterTweet = () => {
   const { tweetId } = useParams();
 
-  const { data, loading } = useQuery(TWEET, { variables: { id: tweetId } });
+  const { data, loading } = useQuery(TWEET, { variables: { id: tweetId }, pollInterval: 5 * 1000 });
 
   const comments =
-    data && data.tweet && data.tweet.comments && data.tweet.comments.length
+    data?.tweet?.comments?.length
       ? data.tweet.comments
       : [];
   comments.sort(sortFn);
