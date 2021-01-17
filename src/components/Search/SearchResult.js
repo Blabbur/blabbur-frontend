@@ -44,7 +44,7 @@ const SearchResult = ({
 					className={searchResultAction === "TWEETS" ? "active" : ""}
 					onClick={changeToTweets}
 				>
-					Tweets
+					Blabs
 				</span>
 				<span
 					className={searchResultAction === "TAGS" ? "active" : ""}
