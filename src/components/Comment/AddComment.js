@@ -100,7 +100,7 @@ const AddComment = ({ id }) => {
         <div className="add-comment">
           <TextareaAutosize
             cols="48"
-            placeholder="Tweet your reply"
+            placeholder="Blab your reply"
             type="text"
             value={comment.value}
             onChange={comment.onChange}

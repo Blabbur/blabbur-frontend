@@ -18,10 +18,10 @@ const Retweet = ({ id, isRetweet, retweetsCount }) => {
       setRetweet(!retweet);
       if (retweet) {
         setRetweetsCount(retweetsCountState - 1);
-        toast.success("Retweet removed");
+        toast.success("Reblab removed");
       } else {
         setRetweetsCount(retweetsCountState + 1);
-        toast.success("Retweet done");
+        toast.success("Reblab done");
       }
     } catch (err) {
       return displayError(err);

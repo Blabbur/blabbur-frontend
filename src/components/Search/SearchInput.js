@@ -74,7 +74,7 @@ const SearchInput = () => {
       <Wrapper>
         <form onSubmit={(e) => handleSearch(e)}>
           <input
-            placeholder="Search by tags, tweets, people"
+            placeholder="Search by tags, blabs, people"
             type="text"
             value={term.value}
             onChange={term.onChange}

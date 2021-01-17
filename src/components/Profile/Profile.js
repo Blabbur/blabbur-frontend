@@ -40,8 +40,8 @@ const Profile = () => {
           <span>{data && data.profile && data.profile.fullname}</span>
           <span className="tweetsCount">
             {data && data.profile && data.profile.tweetsCount
-              ? `${data.profile.tweetsCount} Tweets`
-              : "No Tweets"}
+              ? `${data.profile.tweetsCount} Blabs`
+              : "No Blabs"}
           </span>
         </div>
       </Header>

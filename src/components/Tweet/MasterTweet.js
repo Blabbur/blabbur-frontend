@@ -29,7 +29,7 @@ const MasterTweet = () => {
   return (
     <Wrapper>
       <Header>
-        <span>Tweet</span>
+        <span>Blab</span>
       </Header>
       {loading ? (
         <Loader />
@@ -38,7 +38,7 @@ const MasterTweet = () => {
           {data && data.tweet && data.tweet.id ? (
             <Tweet tweet={data && data.tweet} />
           ) : (
-            <CustomResponse text="Oops, the tweet you are looking for doesn't seem to be exist." />
+            <CustomResponse text="Oops, the blab you are looking for doesn't seem to be exist." />
           )}
           {comments.map((comment) => (
             <Comment key={comment.id} comment={comment} />

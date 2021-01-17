@@ -76,7 +76,7 @@ const NewTweet = () => {
         },
       });
 
-      toast.success("Your tweet has been posted");
+      toast.success("Your blab has been posted");
     } catch (err) {
       return displayError(err);
     }
@@ -119,7 +119,7 @@ const NewTweet = () => {
               <input id="file-input" accept="image/*" type="file" onChange={handleTweetFiles} />
             </div>
             <Button sm disabled={loading}>
-              Tweet
+              Blab
             </Button>
           </div>
         </div>
